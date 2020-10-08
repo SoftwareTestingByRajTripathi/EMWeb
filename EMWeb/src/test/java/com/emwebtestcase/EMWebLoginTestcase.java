@@ -8,6 +8,7 @@ import com.emwebutility.EMWebBasePage;
 public class EMWebLoginTestcase extends EMWebBasePage {
 	EMWebLoginPage EMlogin;
 	@Test
+	//For user login 
 	public void Emuserlogin() throws InterruptedException
 	{
 		EMlogin = new EMWebLoginPage (driver);

@@ -1,5 +1,7 @@
 package com.emwebtestcase;
 
+import org.testng.annotations.Test;
+
 import com.emwebpage.EMWebDashboardPage;
 import com.emwebpage.EMWebLoginPage;
 import com.emwebutility.EMWebBasePage;
@@ -7,7 +9,8 @@ import com.emwebutility.EMWebBasePage;
 public class EMWebDashboardTestcase extends EMWebBasePage {
 	EMWebLoginPage EMlogin;
 	EMWebDashboardPage EMWebDbp;
-	
+	@Test
+	//For Click on DashBoard.//
 	public void clickonDashboard() throws InterruptedException
 	{
 		EMlogin = new EMWebLoginPage(driver);

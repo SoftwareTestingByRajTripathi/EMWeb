@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeTest;
 public class EMWebBasePage {
 	public WebDriver driver;
 	@BeforeTest
+	//for browser lunch//
 		public void startBroser()
 		{
 			System.setProperty("webdriver.chrome.driver","C:\\Users\\Extramarks\\Desktop\\ChromeDriver85\\chromedriver.exe");
@@ -20,6 +21,7 @@ public class EMWebBasePage {
 			driver.manage().deleteAllCookies();
 		}
 	@AfterTest
+	//for browser close
 		public void closeBrowser()
 		{
 			driver.close();
