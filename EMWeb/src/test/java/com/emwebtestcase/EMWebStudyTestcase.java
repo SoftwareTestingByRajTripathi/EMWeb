@@ -10,6 +10,8 @@ public class EMWebStudyTestcase extends EMWebBasePage{
 	public void CountChapterList_studyPage()
 	{
 		EMlogin = new EMWebLoginPage(driver);
+		EMlogin.clickonLoginbtn();
+		
 		
 	}
 	
