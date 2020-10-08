@@ -12,7 +12,7 @@ public class EMWebStudyPage {
 	WebDriver driver;
 	@FindBy(xpath="//a[contains(text(),'Study')]") WebElement study;
 	
-	EMWebStudyPage (WebDriver driver)
+	public EMWebStudyPage (WebDriver driver)
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

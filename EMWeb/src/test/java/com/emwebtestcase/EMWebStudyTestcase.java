@@ -11,6 +11,12 @@ public class EMWebStudyTestcase extends EMWebBasePage{
 	{
 		EMlogin = new EMWebLoginPage(driver);
 		EMlogin.clickonLoginbtn();
+		EMlogin.dhgc();
+		EMlogin.useridandPass("9136342965", "ADVIK@2019");
+		EWStudy = new EMWebStudyPage(driver);
+		EWStudy.Studypage();
+		EWStudy.chapterList();
+		
 		
 		
 	}
