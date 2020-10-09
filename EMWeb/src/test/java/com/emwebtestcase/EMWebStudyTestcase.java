@@ -7,6 +7,7 @@ import com.emwebutility.EMWebBasePage;
 public class EMWebStudyTestcase extends EMWebBasePage{
 	EMWebLoginPage EMlogin;
 	EMWebStudyPage EWStudy;
+	//For Count the chapter list of Subject//
 	public void CountChapterList_studyPage()
 	{
 		EMlogin = new EMWebLoginPage(driver);
