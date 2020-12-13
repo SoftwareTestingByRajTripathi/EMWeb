@@ -1,8 +1,8 @@
 package com.emwebtestcase;
 
+import com.emwebbasepage.EMWebBasePage;
 import com.emwebpage.EMWebLoginPage;
 import com.emwebpage.EMWebStudyPage;
-import com.emwebutility.EMWebBasePage;
 
 public class EMWebStudyTestcase extends EMWebBasePage{
 	EMWebLoginPage EMlogin;

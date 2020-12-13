@@ -2,8 +2,8 @@ package com.emwebtestcase;
 
 import org.testng.annotations.Test;
 
+import com.emwebbasepage.EMWebBasePage;
 import com.emwebpage.EMWebLoginPage;
-import com.emwebutility.EMWebBasePage;
 
 public class EMWebLoginTestcase extends EMWebBasePage {
 	EMWebLoginPage EMlogin;
